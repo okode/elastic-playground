@@ -1,0 +1,3 @@
+# Elasticsearch Playground
+
+Elasticsearch Playground.
