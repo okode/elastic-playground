@@ -17,7 +17,7 @@ Kibana URL: http://localhost:5601
 
 Enter Kibana > Management > License Management and start trial.
 
-# Populate data
+# Populate data for Shakespeare
 
 Apply mapping:
 
@@ -32,3 +32,9 @@ Ingest data:
 curl http://media.sundog-soft.com/es7/shakespeare_7.0.json > shakespeare_7.0.json
 curl -H "Content-Type: application/json" -X POST localhost:9200/shakespeare/_bulk --data-binary @shakespeare_7.0.json
 ```
+
+# Populate data for movies
+
+* Movielens Dataset README: http://files.grouplens.org/datasets/movielens/ml-latest-small-README.html
+* Movielens Dataset: http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+
